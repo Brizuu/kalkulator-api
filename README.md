@@ -2,7 +2,7 @@
 
 To API zostało stworzone w .NET Core (ASP.NET Core Web API) i współpracuje z aplikacją front-endową napisaną w React. API umożliwia rejestrację użytkowników, logowanie i wykonywanie obliczeń po zalogowaniu.
 
-[Strona używająca API]([https://github.com/TwojeUzytkownik/Api-logowania-i-obliczen](https://github.com/Brizuu/kalkulator-react/tree/main))
+[Strona używająca API](https://github.com/Brizuu/kalkulator-react/tree/main)
 
 
 ## Technologie
