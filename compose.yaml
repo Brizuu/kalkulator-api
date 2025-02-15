@@ -1,0 +1,29 @@
+﻿version: '3.8'
+
+services:
+  kalkulator-project:
+    image: kalkulator-project
+    container_name: kalkulator.api
+    build:
+      context: .
+      dockerfile: Kalkulator-project/Dockerfile
+    ports:
+      - "5001:5001"
+    environment:
+      - ASPNETCORE_URLS=http://0.0.0.0:5001
+  
+  kalkulator.database:
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres  # Wskazujemy na niestandardowy Dockerfile dla PostgreSQL
+    container_name: kalkulator.database
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Velvet2006
+      - POSTGRES_DB=postgres
+      # Inicjalizujemy bazę danych z polskim locale
+      - POSTGRES_INITDB_ARGS=--locale=pl_PL.UTF-8 --encoding=UTF8 --lc-collate=pl_PL.UTF-8 --lc-ctype=pl_PL.UTF-8
+    volumes:
+      - ./.containers/postgres-db:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"

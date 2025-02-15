@@ -1,0 +1,23 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  kalkulator-project:
+    build:
+      context: "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project"
+      dockerfile: "Kalkulator-project/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/Kalkulator-project.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "kalkulator-project:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project:/app:rw"
+    - "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project:/src:rw"
+    - "C:\\Users\\Fabia\\AppData\\Roaming\\Microsoft\\UserSecrets:/home/app/.microsoft/usersecrets"
+    - "C:\\Users\\Fabia\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"

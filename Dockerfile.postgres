@@ -1,0 +1,13 @@
+# Używamy najnowszego obrazu PostgreSQL
+FROM postgres:latest
+
+# Instalujemy pakiety do obsługi lokalizacji (locale)
+RUN apt-get update \
+    && apt-get install -y locales \
+    && locale-gen pl_PL.UTF-8 \
+    && update-locale LANG=pl_PL.UTF-8
+
+# Ustawiamy zmienne środowiskowe, aby działały z lokalizacją pl_PL.UTF-8
+ENV LANG=pl_PL.UTF-8
+ENV LC_ALL=pl_PL.UTF-8
+ENV LANGUAGE=pl_PL.UTF-8
