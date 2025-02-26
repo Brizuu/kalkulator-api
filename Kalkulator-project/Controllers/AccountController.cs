@@ -99,6 +99,7 @@ namespace Kalkulator_project.Controllers
         }
         
         [HttpPost("toggleOnSale/{productId}")]
+        [Authorize]
         public async Task<ActionResult> ToggleOnSale(int productId)
         {
             var product = await _context.Products.FindAsync(productId);
@@ -114,6 +115,7 @@ namespace Kalkulator_project.Controllers
         }
         
         [HttpGet("getProduct")]
+        [Authorize]
         public IActionResult GetProductsWithSpecifications()
         {
             var productsWithSpec = _context.Products
@@ -145,6 +147,7 @@ namespace Kalkulator_project.Controllers
 
         
         [HttpPost("addProduct")]
+        [Authorize]
         public async Task<ActionResult> AddProduct([FromBody] ProductWithSpecDto model)
         {
             if (!ModelState.IsValid)
@@ -192,6 +195,7 @@ namespace Kalkulator_project.Controllers
         }
         
         [HttpPost("uploadImage/{productId}")]
+        [Authorize]
         public async Task<ActionResult> UploadImage(int productId, [FromForm] IFormFile file)
         {
             if (file == null || file.Length == 0)
