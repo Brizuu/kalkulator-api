@@ -97,7 +97,131 @@ namespace Kalkulator_project.Controllers
                 CalculationDate = userServiceCalculation.CalculationDate
             });
         }
-    
+        
+        [HttpPost("toggleOnSale/{productId}")]
+        public async Task<ActionResult> ToggleOnSale(int productId)
+        {
+            var product = await _context.Products.FindAsync(productId);
+            if (product == null)
+            {
+                return NotFound(new { Message = "Product not found." });
+            }
+
+            product.OnSale = !product.OnSale;
+            await _context.SaveChangesAsync();
+
+            return Ok(new { Message = "Product onSale status updated.", ProductId = product.Id, NewStatus = product.OnSale });
+        }
+        
+        [HttpGet("getProduct")]
+        public IActionResult GetProductsWithSpecifications()
+        {
+            var productsWithSpec = _context.Products
+                .Join(_context.Specifications, 
+                    product => product.SpecificationId, 
+                    spec => spec.Id, 
+                    (product, spec) => new ProductWithSpecAndImageDto
+                    {
+                        Id = product.Id,
+                        Name = product.Name,
+                        Price = product.Price,
+                        OnSale = product.OnSale,
+                        SellerId = product.SellerId,
+                        SpecificationId = product.SpecificationId,
+                        Specification = new SpecificationDto
+                        {
+                            BrandName = spec.BrandName,
+                            Model = spec.Model,
+                            FuelType = spec.FuelType,
+                            ProductionDate = spec.ProductionDate,
+                            Mileage = spec.Mileage
+                        },
+                        Image = product.Image  
+                    })
+                .ToList();
+
+            return Ok(productsWithSpec);
+        }
+
+        
+        [HttpPost("addProduct")]
+        public async Task<ActionResult> AddProduct([FromBody] ProductWithSpecDto model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                var specification = new Specification
+                {
+                    BrandName = model.Specification.BrandName,
+                    Model = model.Specification.Model,
+                    FuelType = model.Specification.FuelType,
+                    ProductionDate = model.Specification.ProductionDate, 
+                    Mileage = model.Specification.Mileage
+                };
+
+                _context.Specifications.Add(specification);
+                await _context.SaveChangesAsync();
+
+                var product = new Product
+                {
+                    Name = model.Name,
+                    Price = model.Price,
+                    OnSale = model.OnSale,
+                    SellerId = model.SellerId,
+                    SpecificationId = specification.Id, 
+                    Image = ""
+                };
+
+                _context.Products.Add(product);
+                await _context.SaveChangesAsync();
+
+                await transaction.CommitAsync(); 
+
+                return Ok(new { Message = "Product added successfully.", ProductId = product.Id });
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                return Conflict(new { Message = "An error occurred.", Error = ex.InnerException?.Message ?? ex.Message });
+            }
+        }
+        
+        [HttpPost("uploadImage/{productId}")]
+        public async Task<ActionResult> UploadImage(int productId, [FromForm] IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest(new { Message = "No file uploaded." });
+            }
+
+            var product = await _context.Products.FindAsync(productId);
+            if (product == null)
+            {
+                return NotFound(new { Message = "Product not found." });
+            }
+
+            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "public", "images");
+            Directory.CreateDirectory(uploadsFolder);
+
+            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+            var filePath = Path.Combine(uploadsFolder, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            product.Image = $"/public/images/{fileName}";
+            await _context.SaveChangesAsync();
+
+            return Ok(new { Message = "Image uploaded successfully.", ImagePath = product.Image });
+        }
+
 
         [HttpPost("login")]
         public async Task<ActionResult> Login([FromBody] LoginViewModel model, TokenProvider provider)
@@ -122,17 +246,17 @@ namespace Kalkulator_project.Controllers
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
 
-            string token = _tokenProvider.Create(user);
+            var (token, expiry, role) = _tokenProvider.Create(user);
             
-            return token != null ? Ok(new { Token = token }) : Unauthorized();
+            return Ok(new
+            {
+                Token = token,
+                Expiry = expiry,
+                Role = role,
+                UserId = user.Id
+            });
         }
-
-        [HttpPost("logout")]
-        public async Task<ActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return Ok("Logout successful.");
-        }
+        
         
     }
 }

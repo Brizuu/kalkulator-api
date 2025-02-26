@@ -7,30 +7,43 @@ using JwtRegisteredClaimNames = System.IdentityModel.Tokens.Jwt.JwtRegisteredCla
 
 namespace Kalkulator_project.Infrastructure;
 
-public sealed class TokenProvider(IConfiguration configuration)
+
+public sealed class TokenProvider
 {
-    public string Create(UserAccount user)
+    private readonly IConfiguration _configuration;
+
+    public TokenProvider(IConfiguration configuration)
     {
-        string secretKey = configuration["Jwt:SecretKey"];
+        _configuration = configuration;
+    }
+
+    public (string Token, DateTime Expiry, string Role) Create(UserAccount user)
+    {
+        string secretKey = _configuration["Jwt:SecretKey"];
         var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
-        
         var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+        var expiry = DateTime.UtcNow.AddMinutes(_configuration.GetValue<int>("Jwt:ExpirationInMinutes"));
+        
+        string role = string.IsNullOrEmpty(user.Role) ? "User" : user.Role;
 
         var tokenDescriptor = new SecurityTokenDescriptor
         {
-            Subject = new ClaimsIdentity([
-                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString())
-            ]),
-            Expires = DateTime.UtcNow.AddMinutes(configuration.GetValue<int>("Jwt:ExpirationInMinutes")),
+            Subject = new ClaimsIdentity(new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, user.Username),
+                new Claim(ClaimTypes.Role, role)
+            }),
+            Expires = expiry,
             SigningCredentials = credentials,
-            Issuer = configuration["Jwt:Issuer"],
-            Audience = configuration["Jwt:Audience"]
+            Issuer = _configuration["Jwt:Issuer"],
+            Audience = _configuration["Jwt:Audience"]
         };
-        
+
         var handler = new JsonWebTokenHandler();
-        
         string token = handler.CreateToken(tokenDescriptor);
-        
-        return token;
+
+        return (token, expiry, role);
     }
 }

@@ -12,6 +12,7 @@ services:
     - "/app/bin/Debug/net9.0/Kalkulator-project.dll"
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net9.0/Kalkulator-project.staticwebassets.runtime.CT.json"
       DOTNET_USE_POLLING_FILE_WATCHER: "true"
     image: "kalkulator-project:dev"
     ports: []

@@ -9,6 +9,8 @@ public class UserAccount
 {
     [Key]
     public int Id { get; set; }
+
+    public string Role { get; set; } = "User";
     
     [Required(ErrorMessage = "Username is required")]
     [MaxLength(20, ErrorMessage = "Username cannot be longer than 20 characters")]

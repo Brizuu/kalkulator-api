@@ -3,7 +3,6 @@
 namespace Kalkulator_project.Models;
 
 
-// Używany do zbierania i wysyłania danych na stronę View Model
 public class RegistrationViewModel
 {
     [Required(ErrorMessage = "Username is required")]

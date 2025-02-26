@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
         policy =>
         {
-            policy.AllowAnyOrigin()  // Możesz zastąpić np. "http://localhost:3000"
+            policy.AllowAnyOrigin() 
                 .AllowAnyMethod()
                 .AllowAnyHeader();
         });
@@ -33,7 +33,6 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton<TokenProvider>();
 
-// builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 builder.Services.AddAuthorization();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddCookie()
@@ -56,26 +55,23 @@ var app = builder.Build();
 app.UseCors(MyAllowSpecificOrigins);
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseStaticFiles();
 
-// Configure the HTTP request pipeline.
-// if (app.Environment.IsDevelopment())
-// {
+
     app.MapOpenApi();
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/openapi/v1.json", "API v1");
         
-        // Konfiguracja dla OAuth2 i JWT
         options.OAuthClientId("swagger-client");
         options.OAuthAppName("Swagger API");
-        options.OAuthUsePkce();  // Opcjonalnie, dla PKCE, jeśli chcesz
-        options.OAuthScopes("api1");  // Wskaż scope, jeśli jest wymagane (możesz zmienić w zależności od twoich potrzeb)
+        options.OAuthUsePkce();  
+        options.OAuthScopes("api1");  
         
-        // Ta opcja może pomóc w wyświetleniu przycisku "Authorize"
         options.DefaultModelRendering(Swashbuckle.AspNetCore.SwaggerUI.ModelRendering.Model);
     });
-// }
+
 
 app.UseHttpsRedirection();
 

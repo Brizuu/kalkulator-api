@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Kalkulator_project.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Kalkulator_project.Entities;
 
@@ -12,9 +13,8 @@ public class AppDbContext :DbContext
     public DbSet<UserAccount> UserAccounts { get; set; }
     public DbSet<Services> Services { get; set; }
     public DbSet<UserServices> UserServices { get; set; }
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        base.OnModelCreating(modelBuilder);
-    }
+    public DbSet<Product> Products { get; set; }
+    
+    public DbSet<Specification> Specifications { get; set; }
+    
 }
