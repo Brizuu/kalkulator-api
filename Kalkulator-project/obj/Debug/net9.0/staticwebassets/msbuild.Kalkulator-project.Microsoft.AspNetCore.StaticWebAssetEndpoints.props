@@ -1,0 +1,172 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/images/93c2e734-a001-4be9-b9e7-3305fe3bbe3f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\93c2e734-a001-4be9-b9e7-3305fe3bbe3f.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1070777"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 22:37:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/images/93c2e734-a001-4be9-b9e7-3305fe3bbe3f.u166zlydqt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\93c2e734-a001-4be9-b9e7-3305fe3bbe3f.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u166zlydqt"},{"Name":"integrity","Value":"sha256-3sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ="},{"Name":"label","Value":"_content/Kalkulator-project/images/93c2e734-a001-4be9-b9e7-3305fe3bbe3f.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1070777"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 22:37:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/001ca918-518f-4180-b7e5-daf510b6e00f.i1eopx8zf9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\001ca918-518f-4180-b7e5-daf510b6e00f.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i1eopx8zf9"},{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/001ca918-518f-4180-b7e5-daf510b6e00f.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:58:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/001ca918-518f-4180-b7e5-daf510b6e00f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\001ca918-518f-4180-b7e5-daf510b6e00f.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:58:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/04a76d7d-584b-4c25-96a9-27f5a885d4f7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\04a76d7d-584b-4c25-96a9-27f5a885d4f7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1070777"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 22:53:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/04a76d7d-584b-4c25-96a9-27f5a885d4f7.u166zlydqt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\04a76d7d-584b-4c25-96a9-27f5a885d4f7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u166zlydqt"},{"Name":"integrity","Value":"sha256-3sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/04a76d7d-584b-4c25-96a9-27f5a885d4f7.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1070777"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 22:53:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/0ede4751-0a8b-4d84-adc4-de8534005122.i1eopx8zf9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\0ede4751-0a8b-4d84-adc4-de8534005122.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i1eopx8zf9"},{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/0ede4751-0a8b-4d84-adc4-de8534005122.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:48:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/0ede4751-0a8b-4d84-adc4-de8534005122.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\0ede4751-0a8b-4d84-adc4-de8534005122.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:48:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/1f1a91ce-2ac2-455a-9a62-5f432639af03.i1eopx8zf9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\1f1a91ce-2ac2-455a-9a62-5f432639af03.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i1eopx8zf9"},{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/1f1a91ce-2ac2-455a-9a62-5f432639af03.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:47:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/1f1a91ce-2ac2-455a-9a62-5f432639af03.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\1f1a91ce-2ac2-455a-9a62-5f432639af03.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:47:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/3b7bbf7b-0929-4560-b2ca-c2856ed4b8c3.avif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\3b7bbf7b-0929-4560-b2ca-c2856ed4b8c3.avif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-758rqFm06nYGHlXfMDsya6Kt4XB8M0AgBcCMFdLwIgc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"118712"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022758rqFm06nYGHlXfMDsya6Kt4XB8M0AgBcCMFdLwIgc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 20:11:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/3b7bbf7b-0929-4560-b2ca-c2856ed4b8c3.rhrf35hdl0.avif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\3b7bbf7b-0929-4560-b2ca-c2856ed4b8c3.avif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rhrf35hdl0"},{"Name":"integrity","Value":"sha256-758rqFm06nYGHlXfMDsya6Kt4XB8M0AgBcCMFdLwIgc="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/3b7bbf7b-0929-4560-b2ca-c2856ed4b8c3.avif"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"118712"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022758rqFm06nYGHlXfMDsya6Kt4XB8M0AgBcCMFdLwIgc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 20:11:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/459f695a-1178-4c22-9126-6f046a83a65d.i1eopx8zf9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\459f695a-1178-4c22-9126-6f046a83a65d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i1eopx8zf9"},{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/459f695a-1178-4c22-9126-6f046a83a65d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:53:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/459f695a-1178-4c22-9126-6f046a83a65d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\459f695a-1178-4c22-9126-6f046a83a65d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:53:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/68881726-1f27-473c-9cce-9bf3bef0bdaa.i1eopx8zf9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\68881726-1f27-473c-9cce-9bf3bef0bdaa.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i1eopx8zf9"},{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/68881726-1f27-473c-9cce-9bf3bef0bdaa.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:57:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/68881726-1f27-473c-9cce-9bf3bef0bdaa.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\68881726-1f27-473c-9cce-9bf3bef0bdaa.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:57:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/6e2f9ac4-d0bc-45a1-af24-571119f40c7b.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\6e2f9ac4-d0bc-45a1-af24-571119f40c7b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1070777"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 22:44:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/6e2f9ac4-d0bc-45a1-af24-571119f40c7b.u166zlydqt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\6e2f9ac4-d0bc-45a1-af24-571119f40c7b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u166zlydqt"},{"Name":"integrity","Value":"sha256-3sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/6e2f9ac4-d0bc-45a1-af24-571119f40c7b.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1070777"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223sRjzxzrtZr7\u002BSeg7gpGuEoS79W92be0128CgqJUwtQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 22:44:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/75f5db32-f948-45a8-93f6-cd8151f5b758.gvibtd2qwk.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\75f5db32-f948-45a8-93f6-cd8151f5b758.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gvibtd2qwk"},{"Name":"integrity","Value":"sha256-TGXaVT5v3iQFV\u002BTRq8KKeYlKVOHzpxi50hhLTsn4Fu4="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/75f5db32-f948-45a8-93f6-cd8151f5b758.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"462653"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022TGXaVT5v3iQFV\u002BTRq8KKeYlKVOHzpxi50hhLTsn4Fu4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 20:13:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/75f5db32-f948-45a8-93f6-cd8151f5b758.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\75f5db32-f948-45a8-93f6-cd8151f5b758.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TGXaVT5v3iQFV\u002BTRq8KKeYlKVOHzpxi50hhLTsn4Fu4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"462653"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022TGXaVT5v3iQFV\u002BTRq8KKeYlKVOHzpxi50hhLTsn4Fu4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 20:13:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/88621c18-89f5-4270-bf36-90f1a815f30a.6lrbau0fh9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\88621c18-89f5-4270-bf36-90f1a815f30a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6lrbau0fh9"},{"Name":"integrity","Value":"sha256-aqLSCsWbANgD6F7c2lmp4iP3/W2Xxr1hL7nQRKilq/8="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/88621c18-89f5-4270-bf36-90f1a815f30a.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"125200"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aqLSCsWbANgD6F7c2lmp4iP3/W2Xxr1hL7nQRKilq/8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 19:33:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/88621c18-89f5-4270-bf36-90f1a815f30a.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\88621c18-89f5-4270-bf36-90f1a815f30a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aqLSCsWbANgD6F7c2lmp4iP3/W2Xxr1hL7nQRKilq/8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"125200"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aqLSCsWbANgD6F7c2lmp4iP3/W2Xxr1hL7nQRKilq/8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 19:33:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/b56593cf-fff4-4bb6-ac1d-6bc93c09ac2e.7qt7qe8e8i.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\b56593cf-fff4-4bb6-ac1d-6bc93c09ac2e.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7qt7qe8e8i"},{"Name":"integrity","Value":"sha256-wRtbMUuGZVKObktYqRygew\u002B6vYwtXsdSh9FDxVqh3ak="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/b56593cf-fff4-4bb6-ac1d-6bc93c09ac2e.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"452530"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wRtbMUuGZVKObktYqRygew\u002B6vYwtXsdSh9FDxVqh3ak=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 19:09:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/b56593cf-fff4-4bb6-ac1d-6bc93c09ac2e.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\b56593cf-fff4-4bb6-ac1d-6bc93c09ac2e.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wRtbMUuGZVKObktYqRygew\u002B6vYwtXsdSh9FDxVqh3ak="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"452530"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wRtbMUuGZVKObktYqRygew\u002B6vYwtXsdSh9FDxVqh3ak=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 19:09:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/dfd21ce0-ff1a-4f5c-98b9-16a333592e42.i1eopx8zf9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\dfd21ce0-ff1a-4f5c-98b9-16a333592e42.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i1eopx8zf9"},{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/dfd21ce0-ff1a-4f5c-98b9-16a333592e42.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:55:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/dfd21ce0-ff1a-4f5c-98b9-16a333592e42.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\dfd21ce0-ff1a-4f5c-98b9-16a333592e42.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:55:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/f0a98a8c-84f8-446d-a59b-a8df6dd0e457.i1eopx8zf9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\f0a98a8c-84f8-446d-a59b-a8df6dd0e457.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i1eopx8zf9"},{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="},{"Name":"label","Value":"_content/Kalkulator-project/public/images/f0a98a8c-84f8-446d-a59b-a8df6dd0e457.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:55:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Kalkulator-project/public/images/f0a98a8c-84f8-446d-a59b-a8df6dd0e457.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\public\images\f0a98a8c-84f8-446d-a59b-a8df6dd0e457.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"151582"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Fnof7zGvoxR/chiBznK2U4\u002BEQOq0und2I/706IroERM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 18:55:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\images\\93c2e734-a001-4be9-b9e7-3305fe3bbe3f.jpg",
+      "PackagePath": "staticwebassets\\images\\93c2e734-a001-4be9-b9e7-3305fe3bbe3f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\001ca918-518f-4180-b7e5-daf510b6e00f.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\001ca918-518f-4180-b7e5-daf510b6e00f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\04a76d7d-584b-4c25-96a9-27f5a885d4f7.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\04a76d7d-584b-4c25-96a9-27f5a885d4f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\0ede4751-0a8b-4d84-adc4-de8534005122.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\0ede4751-0a8b-4d84-adc4-de8534005122.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\1f1a91ce-2ac2-455a-9a62-5f432639af03.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\1f1a91ce-2ac2-455a-9a62-5f432639af03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\3b7bbf7b-0929-4560-b2ca-c2856ed4b8c3.avif",
+      "PackagePath": "staticwebassets\\public\\images\\3b7bbf7b-0929-4560-b2ca-c2856ed4b8c3.avif"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\459f695a-1178-4c22-9126-6f046a83a65d.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\459f695a-1178-4c22-9126-6f046a83a65d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\68881726-1f27-473c-9cce-9bf3bef0bdaa.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\68881726-1f27-473c-9cce-9bf3bef0bdaa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\6e2f9ac4-d0bc-45a1-af24-571119f40c7b.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\6e2f9ac4-d0bc-45a1-af24-571119f40c7b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\75f5db32-f948-45a8-93f6-cd8151f5b758.jpeg",
+      "PackagePath": "staticwebassets\\public\\images\\75f5db32-f948-45a8-93f6-cd8151f5b758.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\88621c18-89f5-4270-bf36-90f1a815f30a.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\88621c18-89f5-4270-bf36-90f1a815f30a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\b56593cf-fff4-4bb6-ac1d-6bc93c09ac2e.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\b56593cf-fff4-4bb6-ac1d-6bc93c09ac2e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\dfd21ce0-ff1a-4f5c-98b9-16a333592e42.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\dfd21ce0-ff1a-4f5c-98b9-16a333592e42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabia\\RiderProjects\\Kalkulator-project\\Kalkulator-project\\wwwroot\\public\\images\\f0a98a8c-84f8-446d-a59b-a8df6dd0e457.jpg",
+      "PackagePath": "staticwebassets\\public\\images\\f0a98a8c-84f8-446d-a59b-a8df6dd0e457.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Kalkulator-project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Kalkulator-project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Kalkulator-project.props",
+      "PackagePath": "build\\Kalkulator-project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Kalkulator-project.props",
+      "PackagePath": "buildMultiTargeting\\Kalkulator-project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Kalkulator-project.props",
+      "PackagePath": "buildTransitive\\Kalkulator-project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
